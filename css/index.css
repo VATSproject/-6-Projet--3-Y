@@ -42,6 +42,28 @@ h1{
     font-family: 'Rubik Iso', cursive;
 }
 
+.pub{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    right: 20px;
+}
+
+.version{
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.version_mod{
+    font-family: 'DynaPuff', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    color: #eee;
+}
+
 .nav{
     display: flex;
     justify-content: center;
@@ -132,5 +154,4 @@ h1{
     left: 1000px;
     top: 40px;
     rotate: -35deg;
-    /*tes*/
 }
