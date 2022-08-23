@@ -5,6 +5,8 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+/*test2*/
+
 .container{
     width: 100%;
     height: 100vh;
@@ -89,7 +91,6 @@ h1{
 .sommair{
     position: absolute;
     left: 30px;
-    /*test2*/
 }
 
 .sommair li{
