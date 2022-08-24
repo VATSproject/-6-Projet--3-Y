@@ -10,6 +10,7 @@
     height: 100vh;
     background-image: url(../autre/img/Bedrock.png);
     color: #eee;
+    justify-content: center;
 }
 
 .head{
@@ -106,54 +107,37 @@ h1{
     left: 20px;
     font-family: 'Roboto Mono', monospace;
     color: rgb(255, 255, 255);
-}
-
-.intro2{
-    display: flex;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 25px;
-    font-weight: 1000;
-}
-
-.sommair{
-    position: absolute;
-    left: 30px;
-    font-weight: 1000;
-}
-
-.sommair li{
-    text-decoration: dotted;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 1000;
-    font-size: 20px;
-}
-
-.img{
-    display: flex;
-    width: 100%;
-}
-
-.skin{
-    position: absolute;
-    top: 1px;
-    left: 600px;
-}
-
-.comment_img{
     display: flex;
     justify-content: center;
 }
 
-.comment{
+.box_link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    left: 1080px;
-    font-family: 'Satisfy', cursive;
-    font-size: 40px;
+    top: 150px;
 }
 
-.arrow{
-    position: absolute;
-    left: 1000px;
-    top: 40px;
-    rotate: -35deg;
+.downloading_link{
+    text-align: center;
+    width: 330px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(38, 226, 0);
+    border: outset 5px;
+    border-color: black;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.link{
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.link:hover{
+    font-size: 33px;
 }
